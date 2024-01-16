@@ -10,6 +10,13 @@
       href="https://fonts.googleapis.com/css?family=Audiowide"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/716a0265a7.js"
@@ -298,6 +305,82 @@
       </div>
     </section>
 
+    <div style="height: 50px"></div>
+
+    <!-- AI Gallery Section with Image Slider -->
+
+    <section
+      id="ai-gallery"
+      style="padding: 0.5% 15%; background-color: rgb(55, 55, 55)"
+    >
+      <h2
+        style="
+          font-size: 2.5rem;
+          text-align: center;
+          padding-top: 4%;
+          padding-bottom: 0.5%;
+          color: white;
+        "
+      >
+        <strong>AI Art Gallery</strong>
+      </h2>
+
+      <div id="ai-image-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/cute_coding1.jpg"
+              class="d-block w-50 mx-auto"
+              alt="AI Art 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/cute_coding2.jpg"
+              class="d-block w-50 mx-auto"
+              alt="AI Art 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/cute_coding3.jpg"
+              class="d-block w-50 mx-auto"
+              alt="AI Art 3"
+            />
+          </div>
+          <!-- Add more items as needed -->
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#ai-image-slider"
+          data-bs-slide="prev"
+          style="color: black"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+            style="filter: invert(100%)"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#ai-image-slider"
+          data-bs-slide="next"
+          style="color: black"
+        >
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+            style="filter: invert(100%)"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
     <!-- Call to Action -->
 
     <section id="cta">
@@ -352,5 +435,17 @@
     </footer>
 
     <script src="main.js"></script>
+
+    !-- Main JavaScript file... -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
